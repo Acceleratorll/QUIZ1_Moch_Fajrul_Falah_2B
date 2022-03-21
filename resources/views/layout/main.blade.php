@@ -10,27 +10,26 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" type="text/css" href="{{asset('assets/img/favicon.png') }}">
+  <link rel="stylesheet" type="text/css" href="{{asset('assets/img/apple-touch-icon.png') }}">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{asset('assets/vendor/glightbox/css/glightbox.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{asset('assets/vendor/swiper/swiper-bundle.min.css') }}">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: DevFolio - v4.7.1
-  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css') }}">
 </head>
 
 <body>
+
+    @include('partials.header')
+
+    @yield('content')
+
+    @include('partials.footer')
 
     <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
