@@ -13,10 +13,10 @@
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Morgan Freeman</span></p>
+                        <p><span class="title-s">Name: </span> <span>Moch Fajrul Falah</span></p>
                         <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>contact@example.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>(617) 557-0089</span></p>
+                        <p><span class="title-s">Email: </span> <span>mfajrulfalah.ff@gmail.com</span></p>
+                        <p><span class="title-s">Phone: </span> <span>(+62)88803636195</span></p>
                       </div>
                     </div>
                   </div>
